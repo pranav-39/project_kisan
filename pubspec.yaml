@@ -1,0 +1,48 @@
+name: project_kisan
+description: A smart agriculture assistant app for farmers and home growers.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Core functionality
+  http: ^1.2.1
+  provider: ^6.1.2
+  shared_preferences: ^2.2.2
+
+  # Image picking
+  image_picker: ^1.1.1
+  path_provider: ^2.1.2
+
+  # Firebase
+  firebase_core: ^3.15.1
+  firebase_auth: ^5.6.2
+  cloud_firestore: ^5.6.11
+  firebase_storage: ^12.4.9
+  firebase_messaging: ^15.2.9
+
+  # AI / Chat / Voice
+  google_mlkit_image_labeling: ^0.14.1
+  speech_to_text: ^7.2.0
+  flutter_tts: ^4.2.3
+
+  # UI Enhancements
+  flutter_spinkit: ^5.2.0
+  url_launcher: ^6.2.6
+  fluttertoast: ^8.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
